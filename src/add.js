@@ -6,9 +6,9 @@ function add(numOne, numTwo) {
   return numOne + numTwo;
 }
 
-
 // Review the add function (in the src/add.js file) to understand how functionality is implemented and how it relates to the tests.
-/* It is realte becase everything in the add function are expected to work perfectly with the unit test
- Like we can see , it will describe what function add will do.
- Then it expect that the add must be defined first*/
- 
+/* 
+ It is related wuth the test because like we can see, whe have an "add" function that can be found in the test, inside the 
+ component test called "describe", we have one test unit, "it" will tell if the "add" function is expected to be defined (true)
+ or undefined (false). It must defined because defined "add" function is what's expected.
+ */
