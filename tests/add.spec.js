@@ -19,6 +19,13 @@ describe("Iteration 1 | Getting Started", () => {
       expect(add()).toEqual(undefined);
       expect(add(undefined, 1)).toEqual(undefined);
     });
+
+    it("should return undefined if any of the arguments is not a number", () => {
+      expect(add(" ", " ")).toEqual(undefined);
+      expect(add([1], [2])).toEqual(undefined);
+      expect(add({ a: 1 }, { b: 2 })).toEqual(undefined);
+      expect(add(true, false)).toEqual(undefined);
+    });
   });
 });
 
@@ -49,4 +56,3 @@ Review the Tests
         in the exemlpe of "add function", it will take the add function and will tell if it's defined (true)
         or undefined "false".
     */
-

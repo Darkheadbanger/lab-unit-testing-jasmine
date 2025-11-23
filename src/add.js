@@ -11,4 +11,5 @@ function add(numOne, numTwo) {
  It is related wuth the test because like we can see, whe have an "add" function that can be found in the test, inside the 
  component test called "describe", we have one test unit, "it" will tell if the "add" function is expected to be defined (true)
  or undefined (false). It must defined because defined "add" function is what's expected.
+ And the others test too.
  */
